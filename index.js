@@ -2,7 +2,7 @@
 
 const excel = require('./lib/excel')
 
-let buildExport = params => {
+let buildExport = function (params) {
   if (!(params instanceof Array)) throw 'buildExport expects an array'
 
   let sheets = []
@@ -47,7 +47,7 @@ let buildExport = params => {
     }
     data.push(header) //Inject the header at 0
 
-    dataset.forEach(record => {
+    dataset.forEach(function (record) {
       let row = []
       for (let col in specification) {
         let cell_value = record[col]
