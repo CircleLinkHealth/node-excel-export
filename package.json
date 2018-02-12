@@ -12,9 +12,6 @@
     "type": "git",
     "url": "git+https://github.com/andreyan-andreev/node-excel-export.git"
   },
-  "files": [
-    "dist"
-  ],
   "keywords": [
     "excel"
   ],
