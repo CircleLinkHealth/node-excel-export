@@ -86,5 +86,5 @@ let buildExport = function (params) {
 }
 
 module.exports = {
-  buildExport
+  buildExport: buildExport
 }
